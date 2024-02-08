@@ -20,6 +20,9 @@ ul, ol, menu{
 }
 
 /* Layout */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .container-sm{
     width: 1000px;
