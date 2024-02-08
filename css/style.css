@@ -64,10 +64,24 @@ body{
     align-items: center;
 }
 
-header .row{
+.main__header .row{
     justify-content: space-between;
     padding: 20px;
 
 }
+
+/* Main */
+.hero{
+    text-align: center;
+    background-color: #B4D0E7;
+}
+
+.hero__title{
+    font-size: 70px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+
 
  
