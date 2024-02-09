@@ -127,8 +127,9 @@ body{
     margin-bottom: 28px;
 }
 
-.section__plans .col-4{
+.section__plans .col-4, .col-12{
     padding: 0 25px;
+    margin: 24px 0;
 }
 
 .card{
@@ -136,6 +137,7 @@ body{
     flex-direction: column;
     height: 100%;
     border: 1px solid black;
+    
 }
 
 .card__title{
@@ -186,6 +188,15 @@ hr{
 
 .check{
     color: #0061ff;
+}
+
+.upper__card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper__card *{
+    margin: 12px;
 }
 
 
