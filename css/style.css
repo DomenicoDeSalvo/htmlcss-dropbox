@@ -147,18 +147,23 @@ body{
 }
 
 .card__subtitle{
-    margin-bottom: 24px;
     font-size: 24px;
 }
 
 .card__list li{
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     font-size: 12px;
+    display: flex;
+    gap: 5px;
 }
 
 
-.card__list:nth-child(3){
+.period{
     color: grey;
+}
+
+.price{
+    font-weight: 700;
 }
 
 
