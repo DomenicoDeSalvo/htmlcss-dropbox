@@ -49,6 +49,8 @@ body{
 .button{
     line-height: 20px;
     padding: 8px 10px;
+    display: inline-block;
+    text-align: center;
 
 }
 
@@ -70,10 +72,6 @@ body{
 
 .col-12{
     width: 100%;
-}
-
-.col-30{
-    width: 30%;
 }
 
 /* Header */
@@ -105,6 +103,7 @@ body{
 .hero__description{
     display: flex;
     flex-direction: column;
+    gap: 24px;
     align-items: flex-start;
 }
 
@@ -122,8 +121,9 @@ body{
     margin: 28px 0;
 }
 
-.section__plans .col-30, .col-12{
+.section__plans .card{
     border: 1px solid black;
+    margin: 0 20px;
 }
 
 .billing{
@@ -132,15 +132,20 @@ body{
     margin-bottom: 28px;
 }
 
-.section__plans .row{
-    justify-content: space-between;
+.section__plans .card{
+    display: flex;   
+}
+
+.card__title{
+    text-align: center;
 }
 
 
-.section__plans .col-30{
-    display: flex;
-    
-   
+
+/* debug */
+.card{
+    border: 1px solid red;
+    min-height: 500px;
 }
 
 
