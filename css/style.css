@@ -121,19 +121,18 @@ body{
     margin: 28px 0;
 }
 
-.section__plans .card{
-    border: 1px solid black;
-    margin: 0 20px;
-}
-
 .billing{
     display: flex;
     gap: 28px;
     margin-bottom: 28px;
 }
 
-.section__plans .card{
-    display: flex;   
+.section__plans .col-4{
+    padding: 0 25px;
+}
+
+.card{
+    border: 1px solid black;
 }
 
 .card__title{
@@ -142,9 +141,10 @@ body{
 
 
 
+
 /* debug */
 .card{
-    border: 1px solid red;
+    
     min-height: 500px;
 }
 
