@@ -144,7 +144,7 @@ body{
     padding: 10px;
 }
 
-.card__list{
+.card__section{
     padding: 24px 20px;
       
 }
@@ -153,7 +153,7 @@ body{
     font-size: 24px;
 }
 
-.card__list li{
+.card__section li{
     margin-bottom: 16px;
     font-size: 14px;
     display: flex;
@@ -165,12 +165,27 @@ body{
     color: grey;
 }
 
-.price{
+.highlight{
     font-weight: 700;
 }
 
 .card .button{
     align-self: center;
+}
+
+.classic_link{
+    color: blue;
+    text-decoration: underline;
+}
+
+hr{
+    color: lightgray;
+    width: 30px;
+    margin: 24px 20px;    
+}
+
+.check{
+    color: #0061ff;
 }
 
 
