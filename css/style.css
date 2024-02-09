@@ -132,6 +132,9 @@ body{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     border: 1px solid black;
 }
 
@@ -152,9 +155,9 @@ body{
 
 .card__list li{
     margin-bottom: 16px;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
-    gap: 5px;
+    gap: 8px;
 }
 
 
@@ -166,12 +169,11 @@ body{
     font-weight: 700;
 }
 
-
-/* debug */
-.card{
-    
-    min-height: 500px;
+.card .button{
+    align-self: center;
 }
+
+
 
 
 
