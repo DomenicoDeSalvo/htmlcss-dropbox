@@ -169,10 +169,11 @@ body{
 
 .highlight{
     font-weight: 700;
+    margin: 10px 0;
 }
 
 .card .button{
-    align-self: center;
+    margin: 0 24px;
 }
 
 .classic_link{
@@ -190,14 +191,13 @@ hr{
     color: #0061ff;
 }
 
-.upper__card{
-    display: flex;
-    justify-content: space-between;
+.plan__description{
+    margin-top: 40px;
 }
 
-.upper__card *{
-    margin: 12px;
-}
+
+
+
 
 
 
