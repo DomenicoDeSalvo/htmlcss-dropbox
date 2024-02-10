@@ -134,7 +134,7 @@ body{
     
 }
 /* Plans */
-.plans__title{
+.section__title{
     margin: 28px 0;
 }
 
@@ -210,6 +210,14 @@ hr{
 
 .plan__description{
     margin-top: 40px;
+}
+
+/* Dropbox Business features */
+
+.db-features .col-4{
+    padding:  16px;
+    margin: 40px 0;
+
 }
 
 
