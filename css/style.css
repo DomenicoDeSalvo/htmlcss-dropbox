@@ -220,6 +220,31 @@ hr{
 
 }
 
+/* Partners */
+.partner .col-4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Q&A */
+.q_a .row{
+    justify-content: space-between;
+    
+    padding: 24px 12px 24px 0;
+    align-items: center;    
+}
+
+.q_a li:nth-child(odd){
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.q_a .section__title{
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
 
 
 
