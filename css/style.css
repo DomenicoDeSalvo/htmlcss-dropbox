@@ -287,6 +287,23 @@ hr{
 
 .partner__description *{
     margin: 24px;
+    
+}
+
+.partner__description{
+    padding-bottom: 80px;
+}
+
+.partner__description__logo::after{
+    content: '';
+	width: 80px;
+	height: 1px;
+	background-color: lightgray;
+	display: block;    
+}
+
+.partner__description__logo{
+    width: 50%;
 }
 
 
@@ -347,7 +364,7 @@ hr{
 
 .main__footer .languages::before{
     content: '';
-	width: 50px;
+	width: 100px;
 	height: 1px;
 	background-color: lightgray;
 	display: block;
