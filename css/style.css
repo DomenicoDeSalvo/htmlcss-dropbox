@@ -74,6 +74,7 @@ body{
 .white-button{
     background-color: white;
     border: 1px solid black;
+    color: black;
 }
 
 /*  Colums general */
@@ -226,13 +227,74 @@ hr{
     flex-wrap: wrap;
 }
 
-.partner__logo{
+.partner__card{
     width: 50%;
-    object-position: center center;
-    object-fit: contain;
-    padding: 40px;
-    aspect-ratio: 1/1;
+   
     
+}
+.partner__logo{
+    
+    filter: invert(100%);
+    padding: 40px;
+    object-position: center;
+    
+           
+}
+
+/* Partners backgrounds */
+.designit{
+    background-color: #A2D39B;
+    border: solid 20px rgba(255, 255, 255, 0.5);
+     
+}
+
+.a_s_u{
+    background-color: #61082B;
+}
+
+.u_o_f{
+    background-color: #0093CE;
+}
+
+.topps{
+    background-color: #FF1C1C;
+}
+
+.partner__description{
+    background-color: #F5F5F5;
+}
+
+.w_b_r{
+    background-color: #D5001F;
+}
+
+.h_c{
+    background-color: #B4D0E7;
+}
+
+.l_p{
+    background-color: #0D2481;
+}
+
+.c_c{
+    background-color: #FFD830;
+}
+
+
+/* End partners backgrounds */
+
+.partner__description *{
+    margin: 24px;
+}
+
+.designit-highlighted{
+    
+}
+
+/* Call to action */
+.c_t_a{
+    background-color: #B4D0E7;
+    color: #661E73;
 }
 
 /* Q&A */
