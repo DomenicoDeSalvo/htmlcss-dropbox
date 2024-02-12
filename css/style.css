@@ -153,13 +153,13 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     
 }
 
 .card__title{
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgrey;
     padding: 10px;
 }
 
@@ -226,6 +226,15 @@ hr{
     flex-wrap: wrap;
 }
 
+.partner__logo{
+    width: 50%;
+    object-position: center center;
+    object-fit: contain;
+    padding: 40px;
+    aspect-ratio: 1/1;
+    
+}
+
 /* Q&A */
 .q_a .row{
     justify-content: space-between;
@@ -244,6 +253,10 @@ hr{
 }
 
 /* Footer */
+.main__footer{
+    background-color: black;
+    color: white;
+}
 
 
 
