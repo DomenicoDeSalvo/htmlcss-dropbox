@@ -295,6 +295,17 @@ hr{
 .c_t_a{
     background-color: #B4D0E7;
     color: #661E73;
+    padding: 80px;
+}
+
+.c_t_a h2{
+    font-size: 32px;
+}
+
+.c_t_a .row{
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Q&A */
