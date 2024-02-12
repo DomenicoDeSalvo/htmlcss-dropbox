@@ -229,14 +229,16 @@ hr{
 
 .partner__card{
     width: 50%;
-   
-    
+   aspect-ratio: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .partner__logo{
     
     filter: invert(100%);
     padding: 40px;
-    object-position: center;
+    
     
            
 }
@@ -287,9 +289,6 @@ hr{
     margin: 24px;
 }
 
-.designit-highlighted{
-    
-}
 
 /* Call to action */
 .c_t_a{
@@ -329,6 +328,35 @@ hr{
 .main__footer{
     background-color: black;
     color: white;
+    padding: 60px;
+}
+
+.footer__list-title{
+    padding-bottom: 24px;
+    
+}
+
+.main__footer li{
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+.main__footer .row{
+    justify-content: space-between;
+}
+
+.main__footer .languages::before{
+    content: '';
+	width: 50px;
+	height: 1px;
+	background-color: lightgray;
+	display: block;
+    margin: 30px 0;
+}
+
+.languages *{
+    color: lightgray;
+    font-size: 10px;
 }
 
 
